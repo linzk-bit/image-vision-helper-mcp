@@ -1,0 +1,15 @@
+{
+  "name": "image-vision-helper",
+  "version": "2.0.0",
+  "description": "MCP Server: local OCR + online vision LLM for image understanding",
+  "type": "module",
+  "scripts": {
+    "start": "node image-vision-helper.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "tesseract.js": "^5.1.0",
+    "dotenv": "^16.4.0",
+    "jimp": "^1.6.0"
+  }
+}
